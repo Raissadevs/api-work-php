@@ -1,0 +1,33 @@
+POST http://localhost/Mayron/cliente.php
+Content-Type: application/json
+
+{
+    "nome": "maria",
+    "sobrenome": "lima",
+    "email": "marialima@example.com",
+    "telefone": "(11) 1234-5678"
+}
+
+###
+
+GET http://localhost/Mayron/cliente.php
+
+###
+
+GET http://localhost/Mayron/cliente.php?id=1
+
+###
+
+PUT http://localhost/Mayron/cliente.php?id=1
+Content-Type: application/json
+
+{
+    "nome": "Joao",
+    "sobrenome": "Santos",
+    "email": "joao.santos@example.com",
+    "telefone": "(11) 99999-9999"
+}
+
+###
+
+DELETE http://localhost/Mayron/cliente.php?id=2

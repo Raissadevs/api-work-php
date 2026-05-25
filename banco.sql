@@ -1,0 +1,8 @@
+USE banco_noite;
+CREATE TABLE usuarios (
+id INT AUTO_INCREMENT PRIMARY KEY,
+nome VARCHAR(100),
+sobrenome VARCHAR(100),
+email VARCHAR(150) UNIQUE,
+telefone VARCHAR(30)
+);
