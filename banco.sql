@@ -1,3 +1,4 @@
+CREATE DATABASE banco_noite;
 USE banco_noite;
 CREATE TABLE usuarios (
 id INT AUTO_INCREMENT PRIMARY KEY,

@@ -192,3 +192,4 @@ if ($method == 'DELETE') {
 
 responder(400, ["error" => "Método não permitido."]);
 ?>
+cd C:\xampp\htdocs\Mayron
